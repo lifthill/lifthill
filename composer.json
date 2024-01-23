@@ -1,0 +1,43 @@
+{
+    "name": "lifthill/lifthill",
+    "description": "The Domain Driven PHP Framework",
+    "license": "MIT",
+    "type": "project",
+    "keywords": [
+        "framwork",
+        "domain driven",
+        "ddd",
+        "symfony"
+    ],
+    "authors": [
+        {
+            "name": "Sebastiaan Stok",
+            "email": "s.stok@rollercapes.net"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/lifthill/lifthill/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Lifthill\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
